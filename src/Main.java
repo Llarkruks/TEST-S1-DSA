@@ -6,7 +6,7 @@ public static void main(String[] args) {
     v[1] = new Circle(5);
     v[2] = new Square(5);
     v[3] = new Circle(120);
-
+k
     double res = sum(v);
 
     System.out.println("sum: " + res);
