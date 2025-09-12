@@ -8,7 +8,7 @@ public static void main(String[] args) {
     v[3] = new Circle(120);
 k
     double res = sum(v);
-j 
+j
     System.out.println("sum: " + res);
 
     print(v);
