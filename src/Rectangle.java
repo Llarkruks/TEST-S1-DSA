@@ -12,6 +12,6 @@ public class Rectangle extends Figura {
         return this.c1;
     }
     public String toString() {
-        return "Rectangle amb costats: " + this.c1 + " i " + this.c2 + ", té una àrea de " + this.area();
+        return "Rectangle amb costats: " + this.c1 + " i " + this.c2 + ", té una àrea de " + this.area() + "m^2";
     }
 }

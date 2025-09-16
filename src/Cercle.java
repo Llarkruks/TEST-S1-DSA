@@ -8,6 +8,6 @@ public class Cercle extends Figura{
     }
 
     public String toString() {
-        return "Cercle amb radi: "+this.r+" i area: "+this.area();
+        return "Cercle amb radi: "+this.r+" i area: "+this.area()+ "m^2";
     }
 }

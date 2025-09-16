@@ -8,11 +8,12 @@ public class Main {
         return ret;
     }
     public static void sort(Figura[] v){
+
         Arrays.sort(v);
     }
     public static void print(Figura[] v) {
         for (Figura figura : v) {
-            System.out.println("La figura es: "+figura.toString()+" i te "+figura.area()+" m^2");
+            System.out.println("La figura es: "+figura.toString());
         }
     }
     public static void main(String[] args) {

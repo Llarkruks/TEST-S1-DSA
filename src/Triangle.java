@@ -9,6 +9,6 @@ public class Triangle extends Figura {
         return (this.b*this.h)/2;
     }
     public String toString() {
-        return "Triangle amb base: "+this.b+" i altura: "+this.h+", amb area: "+this.area();
+        return "Triangle amb base: "+this.b+" i altura: "+this.h+", amb area: "+this.area() + "m^2";
     }
 }
